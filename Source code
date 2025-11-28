@@ -31,3 +31,4 @@ def main():
     total_fare = calculate_taxi_fare(distance_km, passengers,waiting_fee_per_min, waiting_time_minutes, round_trip, vehicle_type)
     print(f"Total fare for {vehicle_type.title()} is ₹{total_fare:.2f}")
 main()
+
